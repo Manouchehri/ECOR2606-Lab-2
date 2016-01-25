@@ -2,10 +2,10 @@
 
 function[ area ] = overlap(R1, R2, D)
 % overlap   Given a
-% Inputs:   R1 = 
-%           R2 =
-%       	D  =
-% Outputs:  area
+% Inputs:   R1 = Radius of first circle
+%           R2 = Radius of second circle
+%       	D  = distance between the two circles
+% Outputs:  area = area of the overlap
 
 % circcirc
 
@@ -20,7 +20,5 @@ else
     error('Circles do not overlap!');
     % They don't overlap
 end
-
-% Do stuff here.
 
 end
