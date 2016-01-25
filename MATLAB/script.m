@@ -6,4 +6,4 @@ figure(1);
 fplot(f, [50 160]);
 xlabel('x axis');
 ylabel('y axis');
-grud on;
+grid on;
