@@ -13,5 +13,5 @@ grid on;
 
 % Part ii
 f2 = @(d) f(d) - 2000;
-answer = fzero(f2, [50 160]);
+answer = fzero(f2, range);
 fprintf('Output of D: %f\n', answer);
