@@ -1,3 +1,9 @@
 % ECOR2606 - David Manouchehri
 
-% Can I commit from the lab computer?
+f = @(d) overlap(100, 50, d);
+
+figure(1);
+fplot(f, [50 160]);
+xlabel('x axis');
+ylabel('y axis');
+grud on;
